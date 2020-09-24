@@ -60,3 +60,9 @@ the centering is applied to the element that has this class
 .center-v2 {
     margin: auto;
 }
+
+.main-container {
+    width: 700px;
+    height: 400px;
+    background-color: white;
+}
