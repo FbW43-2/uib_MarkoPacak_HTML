@@ -62,11 +62,16 @@ the centering is applied to the element that has this class
 }
 
 .main-container {
-    width: 700px;
+    width: 780px;
     height: 300px;
     background-color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .meme-container {
-
+    width: 230px;
+    height: 230px;
 }
