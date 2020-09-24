@@ -82,3 +82,17 @@ the centering is applied to the element that has this class
     width: 230px;
     height: 230px;
 }
+
+#meme-square-1 {
+
+}
+
+#meme-square-2 {
+    background-image: url('/img/greta.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+#meme-square-3 {
+
+}
