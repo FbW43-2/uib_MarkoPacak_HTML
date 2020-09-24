@@ -9,6 +9,9 @@ html, body {
 
 .thick-border-1 {
     border: solid 10px black;
+    
+    /* Turn a square into a circle*/
+    border-radius: 50%;
 }
 
 .thick-border-2 {
@@ -32,4 +35,11 @@ html, body {
 .inner-inner-square {
     width: 120px;
     height: 120px;
+}
+
+/* Version 1 for centering */
+.center-v1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
