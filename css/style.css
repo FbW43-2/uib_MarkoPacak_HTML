@@ -4,14 +4,14 @@ html, body {
 }
 
 .color-primary {
-    background-color: darkkhaki;
+    background-color: cornflowerblue;
 }
 
 .thick-border-1 {
     border: solid 10px black;
-    
+
     /* Turn a square into a circle*/
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .thick-border-2 {
@@ -23,7 +23,7 @@ html, body {
 .outer-square {
     width: 360px;
     height: 360px;
-    background-color: sandybrown;
+    background-color: cadetblue;
 }
 
 .inner-square {
@@ -37,9 +37,20 @@ html, body {
     height: 120px;
 }
 
-/* Version 1 for centering */
+/* 
+Version 1 for centering: using FlexBox 
+the centering is applied to the direct child
+*/
 .center-v1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* 
+Version 2 for centering: only horizontally 
+the centering is applied to the element that has this class
+*/
+.center-v2 {
+    margin: auto;
 }
