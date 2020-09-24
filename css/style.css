@@ -3,20 +3,33 @@ html, body {
     height: 100%;
 }
 
-body {
-    background-color: cornsilk;
+.color-primary {
+    background-color: darkkhaki;
+}
+
+.thick-border-1 {
+    border: solid 20px black;
+}
+
+.thick-border-2 {
+    border-width: 20px;
+    border-style: solid;
+    border-color: black;
 }
 
 .outer-square {
     width: 360px;
     height: 360px;
     background-color: sandybrown;
-
-    border: solid 10px black;
 }
 
 .inner-square {
     width: 200px;
     height: 200px;
     background-color: white;
+}
+
+.inner-inner-square {
+    width: 120px;
+    height: 120px;
 }
